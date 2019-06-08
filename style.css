@@ -1,0 +1,56 @@
+body{
+  margin:0;
+}
+h1{
+  font-size: 50px;
+  margin-bottom: 0px;
+}
+header{
+  text-align: center;
+  border-bottom:1px black solid;
+  padding-bottom: 0;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+}
+nav{
+  background:  #0099ff;
+}
+nav ul{
+  height:50px;
+  padding-left: 0px;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav ul li{
+  display : inline-block;
+  margin: 9px;
+  font-size: 20px;
+}
+nav ul li a:hover{
+  color:violet;
+}
+a{
+  text-decoration:none;
+  color:black;
+}
+#night_day{
+  position:fixed;
+  top : 10px;
+  right : 10px;
+}
+.grid{
+  display:grid;
+  grid-template-columns: 200px 1fr;
+}
+@media (min-width: 100px) {
+  .grid {
+    display:block;
+  }
+  header{
+    border:none;
+  }
+  ul{
+    border:none;
+  }
+}
