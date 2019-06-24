@@ -39,6 +39,11 @@ a{
   top : 10px;
   right : 10px;
 }
+#signUp{
+  position:fixed;
+  top:10px;
+  right:60px;
+}
 .grid{
   display:grid;
   grid-template-columns: 200px 1fr;
